@@ -1,5 +1,16 @@
 #starting
+# consider a and b  as place holder 
 a = 45
 b = 50
+# c is to hold the value received for the (+) operation
 c = a+b
+# print statment for displaying the value inside c variable 
 print(c)
+
+# the above operation can be prefomed in the folowing way to
+
+45 + 50
+#python will automatically add the two numbers and display the sum '95'
+# we do start programming in the above manner to understand some basic fuction and it is a building bass for bigger programming.
+
+

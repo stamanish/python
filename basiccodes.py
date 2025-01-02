@@ -12,3 +12,7 @@ elif c == 3:
     print(f'Result: {a / b if b != 0 else "Division by zero error"}')
 else:
     print('Invalid input')
+
+usrnum =int(input('Enter a number'))
+cub_num= pow(usrnum,3)#or num**3
+print(f'cube of your number is {cub_num}')

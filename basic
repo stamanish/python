@@ -8,3 +8,41 @@ if revtext == text2:
   print('Your text is palindrom')
 else:
   print('Sorry your word is not a palindrom')
+
+
+
+#function to find factorial of given number 
+def factorial(n):
+if (n== 1 or n==0):
+  return 1
+else:
+  return n : factioral(n-1)
+
+num = 6
+print('Factorial of ',num,'is',factorial(num))
+
+#finding sum of first n natural number 
+
+num = int(input('Enter a number'))
+
+if num < 0:
+  print('Invalid input')
+else:
+  sum= 0
+  i= num 
+while (i >0):
+  sum += i
+  i -= 1
+print(f'sum of first {num} natural number is',sum)
+
+Counting the digits in a number 
+num = int(input('Enter number:')
+count = 0
+i = num 
+
+while(i>0):
+  count = count +1
+  i = i//10
+print(f'The number of digits in {num}:',count)
+
+
